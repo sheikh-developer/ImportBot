@@ -1,0 +1,24 @@
+runtime: nodejs16
+
+env: standard
+
+instance_class: F1
+
+automatic_scaling:
+  min_idle_instances: 0
+  max_idle_instances: 1
+  min_pending_latency: 3000ms
+  max_pending_latency: automatic
+
+handlers:
+- url: /.*
+  script: auto
+  secure: always
+
+env_variables:
+  NEXT_PUBLIC_GITHUB_CLIENT_ID: YOUR_GITHUB_CLIENT_ID
+  NEXT_PUBLIC_SOCKET_URL: YOUR_SOCKET_URL
+
+includes:
+- secret.yaml
+

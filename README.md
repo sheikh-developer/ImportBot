@@ -9,7 +9,7 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Documentation](https://img.shields.io/badge/docs-visit-green.svg)](https://import-bot.vercel.app/docs)
 [![GitHub Stars](https://img.shields.io/github/stars/sheikh-developer/ImportBot)](https://github.com/sheikh-developer/ImportBot/stargazers)
-[![Discord](https://img.shields.io/discord/1234567890)](https://discord.discord.com/invite/importbot)
+[![Discord](https://img.shields.io/discord/1234567890)](https://discord.gg/importbot)
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen.svg)](https://import-bot.vercel.app)
 
 *The Ultimate Git Repository Management Tool*
@@ -17,40 +17,6 @@
 [Live Demo](https://import-bot.vercel.app) • [Documentation](https://import-bot.vercel.app/docs) • [Quick Start](https://import-bot.vercel.app/docs/quickstart)
 
 </div>
-
-## 📌 Table of Contents
-- [ImportBot 🚀](#importbot-)
-  - [📌 Table of Contents](#-table-of-contents)
-  - [⚡️ One-Click Deploy](#️-one-click-deploy)
-  - [🎯 Quick Start](#-quick-start)
-  - [🌟 Features](#-features)
-    - [📦 Universal Import System](#-universal-import-system)
-    - [🔄 Real-time Collaboration](#-real-time-collaboration)
-    - [🚀 Deployment Integration](#-deployment-integration)
-    - [🎨 Modern UI/UX](#-modern-uiux)
-  - [💻 Advanced Usage](#-advanced-usage)
-    - [Custom Configuration](#custom-configuration)
-    - [API Integration](#api-integration)
-  - [📚 Documentation](#-documentation)
-    - [Installation Methods](#installation-methods)
-      - [Local Development](#local-development)
-      - [Docker Deployment](#docker-deployment)
-      - [Cloud Installation](#cloud-installation)
-    - [Environment Variables](#environment-variables)
-  - [🔧 Configuration](#-configuration)
-    - [Security Setup](#security-setup)
-    - [Database Configuration](#database-configuration)
-  - [📈 Analytics Integration](#-analytics-integration)
-    - [Usage Tracking](#usage-tracking)
-    - [Performance Monitoring](#performance-monitoring)
-  - [🤝 Contributing](#-contributing)
-  - [🛡️ Security](#️-security)
-    - [Best Practices](#best-practices)
-    - [Reporting Issues](#reporting-issues)
-  - [🌟 Partners & Infrastructure](#-partners--infrastructure)
-  - [📱 Support](#-support)
-  - [📜 License](#-license)
-  - [🔄 Changelog](#-changelog)
 
 ## ⚡️ One-Click Deploy
 
@@ -76,37 +42,37 @@ npm install
 npm run dev
 ```
 
-Visit `http://localhost:3000` to see your ImportBot instance in action.
+Visit `http://localhost:3000` to see your ImportBot instance.
 
 ## 🌟 Features
 
 ### 📦 Universal Import System
-- **One-click Imports:** Easily import repositories from any Git provider with a single click.
-- **Secure ZIP Handling:** Ensure secure handling of ZIP files during import.
-- **Automatic Dependency Resolution:** Automatically resolve and install dependencies.
-- **Smart Conflict Management:** Intelligently manage conflicts during imports.
-- **Batch Repository Processing:** Process multiple repositories in a single operation.
+- One-click imports from any Git provider
+- Secure ZIP file handling
+- Automatic dependency resolution
+- Smart conflict management
+- Batch repository processing
 
 ### 🔄 Real-time Collaboration
-- **Live Code Editing:** Collaborate in real-time with live code editing.
-- **Multi-user Sessions:** Support for multiple users editing simultaneously.
-- **Integrated Chat System:** Communicate with your team directly within the platform.
-- **Activity Tracking:** Keep track of all activities and changes.
-- **Permission Management:** Control access with robust permission settings.
+- Live code editing
+- Multi-user sessions
+- Integrated chat system
+- Activity tracking
+- Permission management
 
 ### 🚀 Deployment Integration
-- **One-click Cloud Deployment:** Deploy your projects to the cloud with a single click.
-- **Environment Management:** Manage different environments for development, staging, and production.
-- **Preview Environments:** Preview changes before going live.
-- **Rollback Capabilities:** Easily roll back to previous versions if needed.
-- **Deployment Logs:** Detailed logs for tracking deployment activities.
+- One-click cloud deployment
+- Environment management
+- Preview environments
+- Rollback capabilities
+- Deployment logs
 
 ### 🎨 Modern UI/UX
-- **Dark/Light Mode:** Choose between dark and light themes.
-- **Responsive Design:** Optimized for various screen sizes and devices.
-- **Customizable Themes:** Personalize the interface with custom themes.
-- **Keyboard Shortcuts:** Enhance productivity with handy shortcuts.
-- **Drag-and-drop Interface:** Intuitive drag-and-drop functionality for ease of use.
+- Dark/Light mode
+- Responsive design
+- Customizable themes
+- Keyboard shortcuts
+- Drag-and-drop interface
 
 ## 💻 Advanced Usage
 
@@ -183,10 +149,10 @@ docker run -p 3000:3000 importbot/importbot
 ```
 
 #### Cloud Installation
-1. Click any deployment button above.
-2. Follow provider-specific setup instructions.
-3. Configure environment variables.
-4. Deploy your instance.
+1. Click any deployment button above
+2. Follow provider-specific setup
+3. Configure environment variables
+4. Deploy
 
 ### Environment Variables
 ```env
@@ -262,12 +228,12 @@ monitor('api_response_time', {
 
 We welcome contributions! Here's how to get started:
 
-1. Fork the repository.
+1. Fork the repository
 2. Create your feature branch:
    ```bash
    git checkout -b feature/AmazingFeature
    ```
-3. Make your changes.
+3. Make your changes
 4. Run tests:
    ```bash
    npm run test
@@ -280,20 +246,20 @@ We welcome contributions! Here's how to get started:
    ```bash
    git push origin feature/AmazingFeature
    ```
-7. Open a Pull Request.
+7. Open a Pull Request
 
 ## 🛡️ Security
 
 ### Best Practices
-- Use environment variables for sensitive data.
-- Enable rate limiting.
-- Configure CORS properly.
-- Keep dependencies updated.
-- Enable SSL/TLS.
-- Implement proper authentication.
+- Use environment variables for sensitive data
+- Enable rate limiting
+- Configure CORS properly
+- Keep dependencies updated
+- Enable SSL/TLS
+- Implement proper authentication
 
 ### Reporting Issues
-Report security vulnerabilities to [security@importbot.dev](mailto:security@importbot.dev).
+Report security vulnerabilities to security@importbot.dev
 
 ## 🌟 Partners & Infrastructure
 
@@ -329,3 +295,4 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed release notes.
 Powered by ▲ Vercel | [Terms](https://import-bot.vercel.app/terms) • [Privacy](https://import-bot.vercel.app/privacy)
 
 </div>
+
