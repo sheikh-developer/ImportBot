@@ -51,7 +51,9 @@
   ],
   "regions": ["iad1", "sfo1", "hnd1"],
   "github": {
-    "silent": true
+    "silent": true,
+    "enabled": true,
+    "autoAlias": true
   }
 }
 
