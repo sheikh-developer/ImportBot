@@ -63,7 +63,8 @@
     "js-cookie": "latest",
     "socket.io-client": "latest",
     "fs": "latest",
-    "path": "latest"
+    "path": "latest",
+    "monaco-editor": "latest"
   },
   "devDependencies": {
     "@types/node": "^22",

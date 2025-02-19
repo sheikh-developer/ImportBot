@@ -26,17 +26,15 @@ cd "$install_dir"
 
 # Clone the repository
 echo "Cloning ImportBot repository..."
-git clone https://github.com/sheikh-developer/ImportBot.git || { echo "Failed to clone repository."; exit 1; }
+git clone https://github.com/yourusername/importbot.git
 cd importbot
 
 # Install dependencies
 echo "Installing dependencies..."
-npm install || { echo "Failed to install dependencies."; exit 1; }
+npm install
 
 # Ask for GitHub token
 read -p "Enter your GitHub token: " github_token
-echo "Storing the GitHub token in .env.local is not recommended for production environments."
-echo "Consider using environment variables or a more secure method."
 echo "GITHUB_TOKEN=$github_token" > .env.local
 
 # Ask for port number
@@ -46,7 +44,7 @@ echo "PORT=$port" >> .env.local
 
 # Build the project
 echo "Building the project..."
-npm run build || { echo "Failed to build the project."; exit 1; }
+npm run build
 
 # Ask if user wants to use screen for hosting
 read -p "Do you want to use screen for hosting? (y/n): " use_screen
