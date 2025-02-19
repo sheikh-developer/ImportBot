@@ -3,8 +3,6 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sheikh-developer/ImportBot/main/public/logo-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sheikh-developer/ImportBot/main/public/logo-light.svg">
   <img alt="ImportBot" src="https://raw.githubusercontent.com/sheikh-developer/ImportBot/main/public/logo-light.svg" width="180">
 </picture>
 
