@@ -27,6 +27,11 @@ const faqItems = [
     answer:
       "Yes! ImportBot offers team collaboration features. You can invite team members and manage permissions for your imported repositories.",
   },
+  {
+    question: "How does ImportBot handle serverless functions?",
+    answer:
+      "ImportBot uses a single serverless function, which is compatible with Vercel's deployment model. This approach ensures optimal performance and cost-effectiveness for all users, regardless of their plan.",
+  },
 ]
 
 export default function HelpPage() {

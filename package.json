@@ -58,13 +58,16 @@
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.6",
     "zod": "^3.24.1",
+    "monaco-editor": "latest",
     "@octokit/rest": "latest",
     "jszip": "latest",
     "js-cookie": "latest",
     "socket.io-client": "latest",
     "fs": "latest",
     "path": "latest",
-    "monaco-editor": "latest"
+    "@monaco-editor/react": "latest",
+    "@vercel/node": "latest",
+    "@radix-ui/react-icons": "latest"
   },
   "devDependencies": {
     "@types/node": "^22",

@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button"
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip"
 import Image from "next/image"
 
 const platforms = {
@@ -28,12 +29,22 @@ export function DeployButton({ platform }: { platform: keyof typeof platforms })
   const { name, logo, deployUrl } = platforms[platform]
 
   return (
-    <Button asChild className="w-full">
-      <a href={deployUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
-        <Image src={logo || "/placeholder.svg"} alt={`${name} logo`} width={20} height={20} className="mr-2" />
-        Deploy to {name}
-      </a>
-    </Button>
+    <TooltipProvider>
+      <Tooltip>
+        <TooltipTrigger asChild>
+          <Button asChild className="w-full">
+            <a href={deployUrl} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center">
+              <Image src={logo || "/placeholder.svg"} alt={`${name} logo`} width={20} height={20} className="mr-2" />
+              Deploy to {name}
+            </a>
+          </Button>
+        </TooltipTrigger>
+        <TooltipContent>
+          <p>Deploy to {name}</p>
+          <p className="text-xs text-muted-foreground">Multi-region deployment available on Pro and Enterprise plans</p>
+        </TooltipContent>
+      </Tooltip>
+    </TooltipProvider>
   )
 }
 
