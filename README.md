@@ -266,11 +266,9 @@ Report security vulnerabilities to security@importbot.dev
 ## 🌟 Partners & Infrastructure
 
 <div align="center">
-  <img src="https://www.ovhcloud.com/sites/default/files/styles/text_media_horizontal/public/2019-09/ovhcloud-logo.png" height="30" alt="OVH Cloud">
   <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg" height="30" alt="Vercel">
   <img src="https://railway.app/brand/logo-light.png" height="30" alt="Railway">
   <img src="https://upload.wikimedia.org/wikipedia/commons/e/ec/Heroku_logo.svg" height="30" alt="Heroku">
-  <img src="https://www.vultr.com/dist/img/brand/vultr-logo-dark.svg" height="30" alt="Vultr">
 </div>
 
 ## 📱 Support
