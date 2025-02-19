@@ -3,7 +3,7 @@
 <div align="center">
 
 <picture>
-  <img alt="ImportBot" src="https://raw.githubusercontent.com/sheikh-developer/ImportBot/main/public/logo-light.svg" width="180">
+  <img alt="ImportBot" src="https://uxwing.com/wp-content/themes/uxwing/download/resize.php?size=512x512&file=github-copilot-icon.png&category_slug=brands-and-social-media" width="180">
 </picture>
 
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
