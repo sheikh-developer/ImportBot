@@ -9,7 +9,7 @@
 [![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Documentation](https://img.shields.io/badge/docs-visit-green.svg)](https://import-bot.vercel.app/docs)
 [![GitHub Stars](https://img.shields.io/github/stars/sheikh-developer/ImportBot)](https://github.com/sheikh-developer/ImportBot/stargazers)
-[![Discord](https://img.shields.io/discord/1234567890)](https://discord.gg/importbot)
+[![Discord](https://img.shields.io/discord/1234567890)](https://discord.discord.com/invite/importbot)
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen.svg)](https://import-bot.vercel.app)
 
 *The Ultimate Git Repository Management Tool*
@@ -17,6 +17,43 @@
 [Live Demo](https://import-bot.vercel.app) • [Documentation](https://import-bot.vercel.app/docs) • [Quick Start](https://import-bot.vercel.app/docs/quickstart)
 
 </div>
+
+## 📌 Table of Contents
+- [ImportBot 🚀](#importbot-)
+  - [📌 Table of Contents](#-table-of-contents)
+  - [⚡️ One-Click Deploy](#️-one-click-deploy)
+  - [🎯 Quick Start](#-quick-start)
+  - [🌟 Features](#-features)
+    - [📦 Universal Import System](#-universal-import-system)
+    - [🔄 Real-time Collaboration](#-real-time-collaboration)
+    - [🚀 Deployment Integration](#-deployment-integration)
+    - [🎨 Modern UI/UX](#-modern-uiux)
+  - [💻 Advanced Usage](#-advanced-usage)
+    - [Custom Configuration](#custom-configuration)
+    - [API Integration](#api-integration)
+  - [📚 Documentation](#-documentation)
+    - [Installation Methods](#installation-methods)
+      - [Local Development](#local-development)
+      - [Docker Deployment](#docker-deployment)
+      - [Cloud Installation](#cloud-installation)
+    - [Environment Variables](#environment-variables)
+  - [🔧 Configuration](#-configuration)
+    - [Security Setup](#security-setup)
+    - [Database Configuration](#database-configuration)
+  - [📈 Analytics Integration](#-analytics-integration)
+    - [Usage Tracking](#usage-tracking)
+    - [Performance Monitoring](#performance-monitoring)
+  - [🤝 Contributing](#-contributing)
+  - [🛡️ Security](#️-security)
+    - [Best Practices](#best-practices)
+    - [Reporting Issues](#reporting-issues)
+  - [🌟 Partners \& Infrastructure](#-partners--infrastructure)
+  - [📱 Support](#-support)
+  - [📜 License](#-license)
+  - [🔄 Changelog](#-changelog)
+  - [Installation](#installation)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## ⚡️ One-Click Deploy
 
@@ -295,3 +332,20 @@ See [CHANGELOG.md](CHANGELOG.md) for detailed release notes.
 Powered by ▲ Vercel | [Terms](https://import-bot.vercel.app/terms) • [Privacy](https://import-bot.vercel.app/privacy)
 
 </div>
+
+
+## Installation
+
+To install ImportBot, you can use our installation script:
+
+```bash
+curl -o- https://raw.githubusercontent.com/sheikh-developer/ImportBot/main/install.sh | bash
+```
+
+## Contributing
+
+Feel free to contribute to ImportBot by opening issues or submitting pull requests.
+
+## License
+
+[MIT](LICENSE)
