@@ -156,6 +156,14 @@ export default function InstallPage() {
                 <DeployButton platform="railway" />
                 <DeployButton platform="heroku" />
               </div>
+              <Alert className="mt-4">
+                <AlertCircle className="h-4 w-4" />
+                <AlertTitle>Deployment Information</AlertTitle>
+                <AlertDescription>
+                  ImportBot uses a single serverless function, compatible with Vercel's deployment model. This ensures
+                  optimal performance and cost-effectiveness for all users.
+                </AlertDescription>
+              </Alert>
             </CardContent>
           </Card>
         </TabsContent>

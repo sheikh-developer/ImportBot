@@ -4,7 +4,6 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { ModeToggle } from "@/components/mode-toggle"
-import { GitHubOAuth } from "@/components/github-oauth"
 import { cn } from "@/lib/utils"
 
 const navItems = [
@@ -13,7 +12,6 @@ const navItems = [
   { name: "Import", href: "/import" },
   { name: "Install", href: "/install" },
   { name: "Documentation", href: "/docs" },
-  { name: "Settings", href: "/settings" },
 ]
 
 export default function Navbar() {
@@ -52,7 +50,6 @@ export default function Navbar() {
           ))}
         </nav>
         <div className="ml-auto flex items-center gap-2">
-          <GitHubOAuth />
           <ModeToggle />
         </div>
       </div>

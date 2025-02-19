@@ -31,7 +31,7 @@
 
 ## 🎯 Quick Start
 
-```bash
+\`\`\`bash
 # Option 1: Quick Install (Recommended)
 npx create-importbot-app@latest
 
@@ -40,7 +40,7 @@ git clone https://github.com/sheikh-developer/ImportBot.git
 cd ImportBot
 npm install
 npm run dev
-```
+\`\`\`
 
 Visit `http://localhost:3000` to see your ImportBot instance.
 
@@ -77,7 +77,7 @@ Visit `http://localhost:3000` to see your ImportBot instance.
 ## 💻 Advanced Usage
 
 ### Custom Configuration
-```json
+\`\`\`json
 {
   "importbot": {
     "port": 3000,
@@ -97,10 +97,10 @@ Visit `http://localhost:3000` to see your ImportBot instance.
     }
   }
 }
-```
+\`\`\`
 
 ### API Integration
-```typescript
+\`\`\`typescript
 import { ImportBot } from '@importbot/sdk';
 
 const bot = new ImportBot({
@@ -119,14 +119,14 @@ await bot.deploy({
   provider: 'vercel',
   env: 'production'
 });
-```
+\`\`\`
 
 ## 📚 Documentation
 
 ### Installation Methods
 
 #### Local Development
-```bash
+\`\`\`bash
 # 1. Clone repository
 git clone https://github.com/sheikh-developer/ImportBot.git
 
@@ -139,14 +139,14 @@ cp .env.example .env
 
 # 4. Start development server
 npm run dev
-```
+\`\`\`
 
 #### Docker Deployment
-```bash
+\`\`\`bash
 # Pull and run ImportBot
 docker pull importbot/importbot
 docker run -p 3000:3000 importbot/importbot
-```
+\`\`\`
 
 #### Cloud Installation
 1. Click any deployment button above
@@ -155,7 +155,7 @@ docker run -p 3000:3000 importbot/importbot
 4. Deploy
 
 ### Environment Variables
-```env
+\`\`\`env
 # Required
 GITHUB_TOKEN=your_token_here
 DATABASE_URL=your_database_url
@@ -165,12 +165,12 @@ PORT=3000
 NODE_ENV=production
 ENABLE_ANALYTICS=true
 DEPLOYMENT_KEY=your_key
-```
+\`\`\`
 
 ## 🔧 Configuration
 
 ### Security Setup
-```typescript
+\`\`\`typescript
 // config/security.ts
 export default {
   rateLimit: {
@@ -186,10 +186,10 @@ export default {
     cert: '/path/to/cert.pem'
   }
 }
-```
+\`\`\`
 
 ### Database Configuration
-```typescript
+\`\`\`typescript
 // config/database.ts
 export default {
   type: 'postgresql',
@@ -198,12 +198,12 @@ export default {
   migrations: ['src/migrations/**/*.ts'],
   logging: process.env.NODE_ENV === 'development'
 }
-```
+\`\`\`
 
 ## 📈 Analytics Integration
 
 ### Usage Tracking
-```typescript
+\`\`\`typescript
 import { track } from '@importbot/analytics';
 
 track('repository_import', {
@@ -211,10 +211,10 @@ track('repository_import', {
   size: '1.2MB',
   duration: '45s'
 });
-```
+\`\`\`
 
 ### Performance Monitoring
-```typescript
+\`\`\`typescript
 import { monitor } from '@importbot/analytics';
 
 monitor('api_response_time', {
@@ -222,7 +222,7 @@ monitor('api_response_time', {
   duration: 234,
   status: 200
 });
-```
+\`\`\`
 
 ## 🤝 Contributing
 
@@ -230,22 +230,22 @@ We welcome contributions! Here's how to get started:
 
 1. Fork the repository
 2. Create your feature branch:
-   ```bash
+   \`\`\`bash
    git checkout -b feature/AmazingFeature
-   ```
+   \`\`\`
 3. Make your changes
 4. Run tests:
-   ```bash
+   \`\`\`bash
    npm run test
-   ```
+   \`\`\`
 5. Commit your changes:
-   ```bash
+   \`\`\`bash
    git commit -m 'Add some AmazingFeature'
-   ```
+   \`\`\`
 6. Push to the branch:
-   ```bash
+   \`\`\`bash
    git push origin feature/AmazingFeature
-   ```
+   \`\`\`
 7. Open a Pull Request
 
 ## 🛡️ Security
@@ -282,9 +282,19 @@ Need help? We're here for you!
 
 ImportBot is open-source software licensed under the [MIT license](LICENSE).
 
-## 🔄 Changelog
+## Sponsorship
 
-See [CHANGELOG.md](CHANGELOG.md) for detailed release notes.
+ImportBot is sponsored by [sheikh-developer](https://github.com/sheikh-developer). If you find this project useful, please consider supporting its development by becoming a sponsor.
+
+## Callback URL
+
+The GitHub OAuth callback URL for ImportBot is:
+
+\`\`\`
+https://import-bot.vercel.app/callback?=success
+\`\`\`
+
+Make sure to set this URL in your GitHub OAuth App settings.
 
 ---
 
